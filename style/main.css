@@ -1,0 +1,60 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: url('/img/capa.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 60px;
+}
+
+.titulo{
+    font-size: 50px;
+}
